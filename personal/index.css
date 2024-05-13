@@ -21,7 +21,7 @@ header {
   display: flex;
   justify-content: space-between;
   height: 70px;
-  width: 100vw;
+  width: 100%;
 
   align-items: center;
   padding: 0 10%;
@@ -304,6 +304,7 @@ header {
   max-width: 300px;
   padding: 0px;
   padding-bottom: 10px;
+  margin-bottom: 10px;
   text-align: center;
   border: 2px solid black;
   overflow: hidden;
@@ -328,6 +329,7 @@ header {
 }
 
 .product-item2 {
+  padding: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
@@ -623,12 +625,12 @@ header {
 
 .signup-holder {
   width: 100%;
-  padding: 70px;
+  padding: 300px;
 }
 
 .inner-signup-holder {
   width: 100%;
-  padding: 50px;
+  padding: 100px;
   box-shadow: 0 0 20px rgba(30, 30, 30, 0.2);
 }
 
@@ -649,6 +651,7 @@ header {
 
 .signup button {
   width: 200px;
+  
 }
 
 .signup-button {
@@ -659,8 +662,24 @@ header {
 .signup-button button {
   padding: 5px;
 }
+.signup-button a{
+  padding-top: 30px;
+  text-decoration: none;
+  color: black ;
+}
+
+.signup-button button a{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 20px;
+}
 
 .signup-button button:hover {
+  background-color: black;
+  color: white;
+}
+
+.signup-button button a:hover {
   background-color: black;
   color: white;
 }

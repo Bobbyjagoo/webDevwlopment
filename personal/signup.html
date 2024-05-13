@@ -12,21 +12,22 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="signup-holder">
         <div class="inner-signup-holder">
-            <div class="signup">
+            <div class="signup" id="welcomeTheUser">
                 <h1>Sign Up</h1>
-                 <input type="name" placeholder="Firstname">
-                 <input type="name" placeholder="Lastname">
+                 <input type="name" placeholder="Firstname" id="Firstname">
+                 <input type="name" placeholder="Lastname" id="Lastname">
                  <input type="date" placeholder="Date-of-birth(yyyy-mm-dd)">
                  <input type="email" placeholder="Add email">
                  <input type="email" placeholder="Another email(optional)">
                  <input type="password" placeholder="Create password">
                  <input type="password" placeholder="Confirm password">
                 <div class="signup-button">
-                 <button ><a href="index.html">Sign Up</a></button>
+                 <button onclick="welcomeTheUser"><a href="index.html">Sign Up</a></button>
                  <a href="login.html">Already have an account?</a>
                 </div>
                 

@@ -1,0 +1,435 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: white;
+    padding: 10px 10%;
+    align-items: center;
+    z-index: 5000;
+    position: absolute;
+    width:100%;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.menu-btn a img{
+    display: block;
+    width: 40px;
+    height: 40px;
+
+ 
+}
+
+.menu-btn {
+   display: none;
+}
+
+header ul {
+display: flex;
+list-style-type: none;
+gap: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+
+.all-buttons{
+padding: 10px 30px;
+ border-radius: 30px;
+  background: linear-gradient(to right, #32ce72, #2ebbc5) ;
+  border: none;
+  color:white ;
+}
+
+.hero-section{
+    height: 80vh;
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+  
+    position: relative;
+}
+
+.intro-image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -300px;
+    margin-top: -200px;
+
+}
+
+.content{
+    overflow: hidden;
+    z-index: -1;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.content2{
+   display: none;
+}
+
+.mockup{
+    z-index: 1;
+    
+}
+
+.mockup img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right:-130px ;
+}
+
+
+.hero-text{
+ max-width: 650px;
+}
+
+.hero-text h1{
+    font-size: 3rem;
+}
+
+.hero-text p{
+    margin: 20px 0;
+    line-height: 35px;
+    color: grey;
+}
+
+.hero-text .all-buttons{
+    margin-top: 15px;
+}
+
+.why-section{
+    background-color: whitesmoke;
+    padding: 100px 10%;
+}
+
+
+.why{
+    max-width: 80%;
+    
+}
+
+.latest-section h1{
+    padding: 100px;
+    margin-left: 80px;
+    padding-bottom: 0;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    flex-direction:row ;
+    width: 100%;
+    place-items: center;
+}
+
+.cards div{
+    max-width: 400px;
+    line-height: 35px;
+    padding: 30px;
+}
+
+.cards div img{
+    padding-bottom: 40px;
+}
+
+.latest-section{
+    background-color: white;
+    place-items: center;
+    width: 100vw;
+}
+
+.cards2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    place-items: center;
+    padding: 100px 10%;
+}
+.cards2 div{
+    max-width: 350px;
+    
+    line-height: 35px;
+ box-shadow: 0 0px 1px rgba(10, 10, 10, 10 );
+ margin: 30px;  
+ place-items: center;
+ padding-right: 20px;
+}
+
+.cards2 div p{
+   width: 100%;
+    font-size: 15px;
+    place-content: center;
+    padding: 30px;
+}
+
+.cards2 div h1{
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 0 30px;
+    margin: 0;
+}
+
+.cards2 div img{
+    width: 350px;
+    padding-bottom: 10px;
+}
+
+footer{
+    height: 200px;
+        background-color: #575e8f;
+        display: flex;
+}
+
+footer div{
+    padding: 50px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.icon img{
+padding: 10px;
+}
+
+.boobs{
+    width: 600px;
+    display: flex;
+}
+
+.boobs ul{
+    padding: 20px;
+    padding-right: 50px;
+}
+
+.boobs ul li{
+    list-style: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.carry{
+    display: flex;
+    width: 70%;
+}
+
+.side-carry{
+    width: 25%;
+}
+
+.side-carry button{
+    margin: 30px;
+}
+
+.side-carry p{
+    font-size: 20px;
+    color: grey;
+}
+
+@media screen and (max-width:540px) {
+    header{
+        display: flex;
+        width: 100%;
+        
+    }
+
+
+    
+    .nav-link {
+        display: none;
+        transition: ease-in-out 1s;
+       width:100% ;
+       background-color: white;
+       float: right;
+       margin: 0;
+       place-items: center;
+      }
+
+      .nav-link ul{
+        display: flex;
+        flex-direction: column;
+       
+        color: black;
+         width: 100%;
+        height: 100%; 
+        gap: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+        padding-top: 0;
+        padding: 0px;
+      }
+    
+    .nav-link button{
+        display: none;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+
+    .menu-btn a img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-link:target{
+        display: block;
+        margin-top: 300px;
+        margin-left: 100px;
+        padding: 0;
+    }
+
+    .content2{
+        display: block;
+    }
+
+    .hero-section{
+        display: none;
+    }
+        
+    .intro-image2{
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .mockup2{
+        z-index: 1;
+    }
+
+    .mockup2 img{
+        width: 100%;
+        margin-top: -100px;
+    }
+    .hero-text2{
+        width: 100%;
+        text-align: center;
+        padding: 30px
+    }
+
+    .hero-text2 p{
+        padding: 10px;
+        color: grey;
+    }
+
+    .content2 button{
+        margin: 30px;
+    }
+
+    .why-section{
+        text-align: center;
+        width: 100%;
+    }
+
+    .why{
+        max-width: 100%;
+        padding: 20px;
+        color: grey;
+    }
+
+    .top-image{
+        margin: 0;
+        text-align: center;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        color: grey;
+    }
+
+    .cards2 div{
+        padding: 0px;
+    }
+
+    .latest-section h1{
+        padding: 20px;
+    }
+
+    .cards2{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        padding-top: 0;
+    }
+
+    .cards2 div h1{
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .cards2 p{
+        color: grey;
+    }
+
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 0;
+    }
+
+ .carry{
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+ }
+
+ .boobs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    place-items: center;
+    padding: 0;
+    margin: 0;
+ }
+
+ .boobs ul{
+    padding: 0;
+    padding-right: 0;
+    text-align: center;
+ }
+
+    .icon{
+        display: block;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin: 0;
+    }
+    .side-carry{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        place-items: center;
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+}

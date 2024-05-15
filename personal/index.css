@@ -374,7 +374,7 @@ padding-left: 20px;
   transition: ease-in-out;
   gap:10px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 
@@ -875,9 +875,16 @@ color: red;
   .cant {
     font-size: 0.5rem;
   }
+  .boxes{
+    /* width: 70%; */
+    text-align: center;
+    padding: 0;
+    min-height: 300px !important;
+
+  }
 
   .boxes img {
-    width: 100%;
+    width: 80%;
     height: 100%;
   }
 
@@ -911,14 +918,18 @@ color: red;
 
   .add-cart,
   .price {
-    width: 180px;
+    width: 40;
     padding: 5px;
-    font-size: 1rem;
+    font-size: 0.5rem;
+    text-align: center;
   }
 
   .product-item{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px ,1fr)) ;
+    grid-template-columns: repeat(auto-fit, minmax(150px ,1fr)) ;
+    padding: 0;
+    place-items: center;
+    text-align: center;
    
   }
   .advert-pic{
@@ -1148,6 +1159,7 @@ width: 400px;
 
   .boxes {
     height: 100px;
+    width: 100%;
   }
 
   .text2 h1 {

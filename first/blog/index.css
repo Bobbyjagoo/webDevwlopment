@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header{
+    height: 600px;
+    background: linear-gradient(to right, #ff836d, #ff4457 ) ;
+    overflow: hidden;
+    border-bottom-left-radius: 100px;
+    z-index: -1;
+    color: white;
+    
+}
+
+
+.first-img{
+    margin-top: -1700px;
+    margin-left: -550px;
+    width: 4000px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.second-img{
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-right:700px ;
+}
+
+.second-img ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-img div{
+    padding: 30px;
+}
+
+.second-img ul li{
+    list-style: none;
+}
+
+.second-img ul li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+
+.in{
+    margin-left: 0px   ;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.in a{
+    text-decoration: none;
+    
+   
+}
+
+.in1{
+    margin: 30px;
+    padding: 10px;
+    padding-right: 0;
+    color: white;
+}
+
+.in2{
+    margin: 30px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #ff4457;
+}
+
+.head-holder{
+    z-index: 10;
+    top: 20px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px;
+    place-content: center;
+    padding-top: 40px;
+}
+
+.text{
+    z-index: 10;
+    position: absolute;
+    top: 250px;
+    text-align: center;
+    width: 100%;
+}
+
+.text div button a{
+    text-decoration: none;
+}
+
+
+.text h1{
+    padding-bottom: 40px;
+}
+
+.text p{
+    padding-bottom: 50px;
+}
+
+.btn2{
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+    color: #ff4457;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 30px;
+}
+
+.btn2 a {
+    color: #ff4457;
+}
+
+.btn1{
+    padding: 15px;
+    background-color: #ff836d;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn1 a{
+    color: white;
+}
+
+.content{
+    text-align: center;
+    width: 100%;
+    padding: 80px;
+}
